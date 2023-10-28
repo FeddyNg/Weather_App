@@ -1,0 +1,44 @@
+* {
+    background-color: black; 
+    color: white;
+}
+
+.Heading {
+    color: darkgreen;
+}
+
+.h4 {
+    color: darkgrey;
+}
+
+.item {
+    color: darkgray;
+}
+
+h4,button {
+    font-weight:normal;
+}
+
+button {
+    border-radius: 12px;
+    font-size: 20px;
+    background-color: darkgreen;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+.WeatherImage {
+    width: 384px;
+    height: 244px;
+}
+
+.imageBox {
+    border-left: 8px solid darkgreen;
+    display: flex;
+}
+
+.imageBox img {
+    max-width: 100%;
+}
